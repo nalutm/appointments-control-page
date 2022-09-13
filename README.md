@@ -45,7 +45,7 @@ Finalizado
 * JS
 
 ## Acesso ao projeto
-Você pode acessar o [código fonte do projeto](https://github.com/nalutm/seven-days-of-code/tree/main/responsividade). Também pode acessar a [página para conferir o resultado final](https://seven-days-of-code-henna.vercel.app/).
+Você pode acessar o [código fonte do projeto](https://github.com/nalutm/appointments-control-page). Também pode acessar a [página para conferir o resultado final](https://appointments-control.vercel.app/).
 
 ## Autora
 [Nayara Luiza Tavares Moraes](https://github.com/nalutm)
