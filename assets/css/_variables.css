@@ -1,0 +1,23 @@
+:root {
+  --address: #0061e8;
+  --black: #333;
+  --blue: #4894FF;
+  --border: #ECECEC;
+  --shadow: rgba(255, 176, 80, 0.16);
+  --white: #FFF;
+  --light-gray: #f9f7fe;
+  --orange: #FFB050;
+  --call: #f28f16;
+  --menu-shadow: rgba(0, 0, 0, 0.06);
+  --float-btn: rgba(255, 152, 56, 0.06);
+
+  --title: #464646;
+  --text: #A3A3A3;
+  --gray: #464646;
+  --line: rgba(70, 70, 70, 0.1);
+
+  --border: #EDEDED;
+
+  --montserrat: 'Montserrat', sans-serif;
+
+}

@@ -1,0 +1,81 @@
+.new-appointments {
+  background-color: rgba(0, 0, 0, 0.6);
+  column-gap: 16px;
+  display: grid;
+  grid-template-columns: auto 70px;
+  grid-template-rows: 1fr auto auto 180px;
+  left: 0;
+  position: fixed;
+  row-gap: 16px;
+  top: 0;
+  height: 100vh;
+  z-index: 2;
+  width: 100%;
+  animation: hide .5s forwards;
+}
+
+@keyframes hide {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.new-appointments--inactive {
+  display: none;
+}
+
+.new-appointments--active {
+  display: grid !important;
+  animation: show .5s forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.new-appointment__type {
+  align-self: center;
+  justify-self: flex-end;
+  background-color: var(--white);
+  border-radius: 23px;
+  color: var(--title);
+  font-size: 12px;
+  line-height: 19px;
+  padding: 0 8px;
+}
+
+.local {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.local-btn {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.video {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.video-btn {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+@media screen and (min-width: 768px) {
+  .new-appointments {
+    grid-template-rows: 1fr auto auto 130px;;
+  }
+}

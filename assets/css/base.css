@@ -1,0 +1,35 @@
+@import url(_reset.css);
+@import url(_variables.css);
+@import url(_cell-inpho.css);
+@import url(_doctor-card.css);
+@import url(components/_appointments-day.css);
+@import url(components/_button.css);
+@import url(components/_appointment-adrres.css);
+@import url(components/_patient-card.css);
+@import url(_appointments.css);
+@import url(components/_float-btn.css);
+@import url(_menu.css);
+@import url(_new-appointments.css);
+@import url(_form.css);
+
+
+body {
+  background: var(--light-gray);
+  box-sizing: border-box;
+  color: var(--text);
+  font-family: var(--montserrat);
+}
+
+.title {
+  color: var(--title);
+  font-weight: 700;
+}
+
+.appointment {
+  margin: auto;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}

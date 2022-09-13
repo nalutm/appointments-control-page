@@ -1,0 +1,9 @@
+.appointment-day {
+  padding: .5rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .appointment-day {
+    font-size: 1.3rem;
+  }
+}

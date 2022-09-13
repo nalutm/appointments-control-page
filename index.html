@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultas</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/base.css">
+</head>
+
+<body>
+  <section class="cell-inpho">
+    <div class="cell-inpho__content">
+      <span class="cell-inpho__time">03:33</span>
+    <div class="cell-inpho__icons">
+      <img src="./assets/img/icons/cell_signal.svg" alt="Sinal do celular">
+      <img src="./assets/img/icons/battery_full.svg" alt="Bateria">
+      <img src="./assets/img/icons/wifi.svg" alt="Wifi">
+    </div>
+    </div>
+  </section>
+  <section>
+    <article class="doctor-card">
+      <img src="./assets/img/profiles/profile-1.png"
+        alt="Sônia, uma mulher negra de cabelos presos com jaleco branco e estetoscópio em volta do pescoço"
+        class="doctor-card__img">
+      <h1 class="title doctor-card__title">Olá, Sônia</h1>
+      <span class="doctor-card__text">Mais 4 consultas hoje</span>
+    </article>
+  </section>
+  <main class="appointments">
+    <h2 class="title appointment-day">Hoje</h2>
+    <ul class="appointments__list">
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-2.jpg" alt="Perfil paciente Luciana Dias" class="patient-profile">
+          <h3 class="title appointment-patient">Luciana Dias</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--remote"></div>
+            <span class="appointment-type">Consulta remota</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">14:00 - 15:00 (1 hora)</span>
+        <div class="appointment-card__buttons">
+          <button class="btn btn--video-call">Ligar por vídeo</button>
+          <button class="btn btn--audio-call">Ligar por áudio</button>
+        </div>
+      </li>
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-3.jpg" alt="Perfil paciente Larissa Santana" class="patient-profile">
+          <h3 class="title appointment-patient">Larissa Santana</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--local"></div>
+            <span class="appointment-type">Consulta no local</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">16:00 - 17:00 (1 hora)</span>
+        <a href="#" class="appointment-address">Ver endereço</a>
+      </li>
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-4.jpg" alt="Perfil paciente Marcos Correia" class="patient-profile">
+          <h3 class="title appointment-patient">Marcos Correia</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--remote"></div>
+            <span class="appointment-type">Consulta remota</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">17:20 - 18:00 (40 minutos)</span>
+        <div class="appointment-card__buttons">
+          <button class="btn btn--video-call">Ligar por vídeo</button>
+          <button class="btn btn--audio-call">Ligar por áudio</button>
+        </div>
+      </li>
+    </ul>
+
+    <h2 class="title appointment-day">Amanhã</h2>
+    <ul class="appointments__list">
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-5.jpg" alt="Perfil paciente Clara Lemos" class="patient-profile">
+          <h3 class="title appointment-patient">Clara Lemos</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--local"></div>
+            <span class="appointment-type">Consulta no local</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">18:00 - 19:00 (1 hora)</span>
+        <a href="#" class="appointment-address">Ver endereço</a>
+      </li>
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-2.jpg" alt="Perfil paciente Luciana Dias" class="patient-profile">
+          <h3 class="title appointment-patient">Luciana Dias</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--remote"></div>
+            <span class="appointment-type">Consulta remota</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">14:00 - 15:00 (1 hora)</span>
+        <div class="appointment-card__buttons">
+          <button class="btn btn--video-call">Ligar por vídeo</button>
+          <button class="btn btn--audio-call">Ligar por áudio</button>
+        </div>
+      </li>
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-4.jpg" alt="Perfil paciente Marcos Correia" class="patient-profile">
+          <h3 class="title appointment-patient">Marcos Correia</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--remote"></div>
+            <span class="appointment-type">Consulta remota</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">17:20 - 18:00 (40 minutos)</span>
+        <div class="appointment-card__buttons">
+          <button class="btn btn--video-call">Ligar por vídeo</button>
+          <button class="btn btn--audio-call">Ligar por áudio</button>
+        </div>
+      </li>
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-3.jpg" alt="Perfil paciente Larissa Santana" class="patient-profile">
+          <h3 class="title appointment-patient">Larissa Santana</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--local"></div>
+            <span class="appointment-type">Consulta no local</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">16:00 - 17:00 (1 hora)</span>
+        <a href="#" class="appointment-address">Ver endereço</a>
+      </li>
+    </ul>
+
+    <h2 class="title appointment-day">Quarta</h2>
+    <ul class="appointments__list">
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-5.jpg" alt="Perfil paciente Clara Lemos" class="patient-profile">
+          <h3 class="title appointment-patient">Clara Lemos</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--local"></div>
+            <span class="appointment-type">Consulta no local</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">18:00 - 19:00 (1 hora)</span>
+        <a href="#" class="appointment-address">Ver endereço</a>
+      </li>
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-2.jpg" alt="Perfil paciente Luciana Dias" class="patient-profile">
+          <h3 class="title appointment-patient">Luciana Dias</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--remote"></div>
+            <span class="appointment-type">Consulta remota</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">14:00 - 15:00 (1 hora)</span>
+        <div class="appointment-card__buttons">
+          <button class="btn btn--video-call">Ligar por vídeo</button>
+          <button class="btn btn--audio-call">Ligar por áudio</button>
+        </div>
+      </li>
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-4.jpg" alt="Perfil paciente Marcos Correia" class="patient-profile">
+          <h3 class="title appointment-patient">Marcos Correia</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--remote"></div>
+            <span class="appointment-type">Consulta remota</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">17:20 - 18:00 (40 minutos)</span>
+        <div class="appointment-card__buttons">
+          <button class="btn btn--video-call">Ligar por vídeo</button>
+          <button class="btn btn--audio-call">Ligar por áudio</button>
+        </div>
+      </li>
+      <li class="appointment-card">
+        <div class="appointment-card__info">
+          <img src="./assets/img/profiles/profile-3.jpg" alt="Perfil paciente Larissa Santana" class="patient-profile">
+          <h3 class="title appointment-patient">Larissa Santana</h3>
+          <div class="wrapper">
+            <div class="appointment-type__icon appointment-type__icon--local"></div>
+            <span class="appointment-type">Consulta no local</span>
+          </div>
+          <button class="appointment-msg"><img src="./assets/img/icons/chat1.svg" alt="ícone de mensagem"></button>
+        </div>
+        <span class="appointment-duration">16:00 - 17:00 (1 hora)</span>
+        <a href="#" class="appointment-address">Ver endereço</a>
+      </li>
+    </ul>
+  </main>
+  <nav class="menu" data-js="menu">
+    <ul class="menu__list">
+      <li class="menu__item">
+        <img src="assets/img/icons/calendar-icon.svg" alt="Ícone calendário" class="menu__icon">
+        <span class="menu__text menu--active ">Consultas</span>
+      </li>
+      <li class="menu__item">
+        <img src="assets/img/icons/clients-icon.svg" alt="Ícone cliente" class="menu__icon">
+        <span class="menu__text">Clientes</span>
+      </li>
+      <li class="menu__item">
+        <img src="assets/img/icons/reports-icon.svg" alt="Ícone gráfico" class="menu__icon">
+        <span class="menu__text">Relatórios</span>
+      </li>
+      <li class="menu__item new-appointment">
+        <img src="assets/img/icons/plus-desktop.svg" alt="Ícone nova consulta" class="menu__icon">
+        <span class="menu__text">Nova Consulta</span>
+      </li>
+      <li class="menu__item">
+        <img src="assets/img/icons/menu-icon.svg" alt="Ícone menu" class="menu__icon menu__icon--menu">
+        <span class="menu__text">Menu</span>
+      </li>
+    </ul>
+  </nav>
+  <section class="new-appointments new-appointments--inactive" data-js="new-appointments">
+    <span class="new-appointment__type local">Nova consulta na casa do paciente</span>
+    <button class="float-btn local-btn"><img src="assets/img/icons/pin-btn.svg" alt="Ícone de localização"></button>
+    <span class="new-appointment__type video">Nova consulta por vídeo</span>
+    <button class="float-btn video-btn"><img src="assets/img/icons/camera-btn.svg" alt="ícone câmera"></button>
+  </section>
+  <button class="float-btn float-btn--plus" data-js="add-new-appointment"><img src="assets/img/icons/plus.svg" alt="Ícone sinal de somar"></button>
+
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>

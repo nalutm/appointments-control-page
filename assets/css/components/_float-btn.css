@@ -1,0 +1,31 @@
+.float-btn {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 100%;
+  box-shadow: 0px 4px 4px var(--float-btn);
+  height: 56px;
+  z-index: 3;
+  width: 56px;
+}
+
+.float-btn--plus {
+  position: fixed;
+  right: 16px;
+  top: calc(100vh - 180px);
+}
+
+.float-btn:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .float-btn--plus {
+    top: calc(100vh - 130px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .float-btn--plus {
+    display: none;
+  }
+}

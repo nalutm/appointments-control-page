@@ -1,0 +1,23 @@
+.appointment-address {
+  background: var(--blue);
+  border-radius: 8px;
+  color: var(--white);
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.appointment-address:hover {
+  background-color: var(--address);
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-address {
+    line-height: 45px;
+  }
+}

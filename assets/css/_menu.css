@@ -1,0 +1,79 @@
+.menu {
+  align-items: center;
+  background: var(--white);
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0px -4px 8px var(--menu-shadow);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 58px;
+  width: 100%;
+}
+
+.menu__list {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.menu__item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu__item:hover {
+  cursor: pointer;
+  color: var(--blue);
+}
+
+.menu__icon {
+  height: 22px;
+  width: 20px;
+}
+
+.menu__text {
+  color: var(--gray);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.menu--active {
+  color: var(--blue);
+}
+
+.new-appointment {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    align-items: flex-start;
+    height: 100vh;
+    padding: 2rem 0 0 1rem;
+    top: 0;
+    width: 15%;
+  }
+
+  .menu__list {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .menu__item {
+    flex-direction: row;
+    gap: .5rem;
+  }
+
+  .menu__text  {
+    font-size: 1.2rem;
+  }
+
+  .new-appointment {
+    display: flex;
+  }
+}

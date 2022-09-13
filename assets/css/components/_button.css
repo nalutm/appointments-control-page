@@ -1,0 +1,58 @@
+.btn {
+  border-radius: 8px;
+  font-family: var(--montserrat);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 13px 16px;
+  transition: all .2 ease-in-out;
+  width: 139px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn--video-call {
+  background: var(--orange);
+  border: none;
+  color: var(--white);
+  box-shadow: 0px 4px 16px var(--shadow);
+  
+}
+
+.btn--video-call:hover {
+  background: var(--call);
+  font-weight: 700;
+}
+
+.btn--audio-call {
+  background: var(--white);
+  border: 1px solid var(--border);
+}
+
+.btn--audio-call:hover {
+  color: var(--text);
+  font-weight: 700;
+  border-color: var(--call);
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    padding: 13px 7px;
+    width: 110px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    padding: 13px 7px;
+    width: 110px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .btn {
+    padding: 13px 16px;
+    width: 150px;
+  }
+}
